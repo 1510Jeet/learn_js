@@ -1,4 +1,4 @@
-let count = 0
+let count = document.getElementById("count-el").innerText
 function increment(){
     count++
     document.getElementById("count-el").innerText=count
